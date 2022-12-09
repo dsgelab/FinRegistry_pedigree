@@ -545,10 +545,10 @@ write.table(relative_link, "relative_link.20220501.tsv", append=F, quote=F, sep=
 ## https://github.com/yorogosu/genealogy/blob/main/components.py
 
 # Jupyter & RStudio (SSH tunneling) for FinRegistry -------------------------
-# Open the SSH tunnel on your machine (on your local terminal): ssh -NfL 8443:localhost:443 -p2222 -l aliu@giu.fi eta.fimm.fi
+# Open the SSH tunnel on your machine (on your local terminal)
 # Log in using your Atlas usename as above 
-# Go to https://localhost:8443/jupyter/ or https://localhost:8443/rstudio/ on your browser
-# Log into Jupyter or RStudio using the Jupyter/RStudio username (user: aliu, password: Lax920814)
+# Go to https://localhost:xxxx/jupyter/ or https://localhost:xxxx/rstudio/ on your browser
+# Log into Jupyter or RStudio using the Jupyter/RStudio username 
 # Troubleshooting: 
 # “No available hosts” → make sure VPN is on
 # Jupyter: “Server is starting up” → refresh the browser (it won’t be done automatically even though it says so)
